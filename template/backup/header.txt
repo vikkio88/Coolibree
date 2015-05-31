@@ -1,1 +1,0 @@
-<h1 onclick="javascript:location.href='./index.php'"><img src="./img/banner.png" /></h1>
