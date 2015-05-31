@@ -1,0 +1,20 @@
+<div style="margin: auto; border: 2px solid #000; width: 650px; padding: 8px;">
+<p style="float: right;font-size:0.8em"><a href="#" onclick="closetarget()">[X]</a></p>
+<h3>Template edit</h3>
+<form action="javascript:reqpasspost('makeedittemp')" onsubmit="reqpasspost('makeedittemp')">
+<div id="notification2"></div>
+
+<label>Here's the <strong>css</strong> you can edit it and save!</label><br />
+<a href="#" onclick="refresh('css')"><img style="border-style: none;" src="./icons/refresh.png" alt="Refresh"/></a>
+<textarea name="message" id="css" cols="78" rows="15"></textarea><br /><br />
+<label>Here's the <strong>header</strong> content you can edit it and save!</label><br />
+<a href="#" onclick="refresh('header')"><img style="border-style: none;" src="./icons/refresh.png" alt="Refresh"/></a>
+<textarea name="message" id="header" cols="78" rows="8"></textarea><br /><br />
+<label>Here's the <strong>navigation bar</strong> content you can edit it and save!</label><br />
+<a href="#" onclick="refresh('bar')"><img style="border-style: none;" src="./icons/refresh.png" alt="Refresh"/></a>
+<textarea name="message" id="bar" cols="78" rows="8"></textarea><br /><br />
+<label>Here's the <strong>footer</strong> content you can edit it and save!</label><br />
+<a href="#" onclick="refresh('footer')"><img style="border-style: none;" src="./icons/refresh.png" alt="Refresh"/></a>
+<textarea name="message" id="footer" cols="78" rows="8"></textarea><br /><br />
+<input type="button" id="sendbtn" onclick="reqpasspost('makeedittemp')" name="Invia" value="Save" />
+</form></div>

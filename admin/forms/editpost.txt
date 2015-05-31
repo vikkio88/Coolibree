@@ -1,0 +1,12 @@
+
+<div style="margin: auto; border: 2px solid #000; width: 650px; padding: 8px;">
+<p style="float: right;font-size:0.8em"><a href="#" onclick="closetarget()">[X]</a></p>
+<h3>Html Post Editor</h3>
+<form action="javascript:reqpasspost('makeeditpost')" onsubmit="reqpasspost('makeeditpost')">
+<label>require post <a href="#" onclick="printpostlist()">number(position #)</a></label><input type="text" id="id" /><input type="button" onclick="drophtml($('#id').val())" value="Send"/><br />
+<div id="notification2"></div>
+<label>For post editing do not use bbcode only html</label><br />
+<label>you are editing post with id <strong><span id="id2"></span></strong></label><br />
+<textarea name="message" id="post" cols="78" rows="15"></textarea><br /><br />
+<input type="button" id="sendbtn" onclick="reqpasspost('makeeditpost')" name="Invia" value="Send post" />
+</form></div>

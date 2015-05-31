@@ -1,0 +1,193 @@
+/**
+ * 
+ * Coolibree default css style
+ * ***by vikkio88
+ * 
+ * */
+* body {
+	padding: 0px;
+	color: #000;
+	background:#83CECE url(img/back.gif);
+}
+
+
+#all{
+ /* border-top: solid 1px black;
+  border-left: solid 1px black;
+  border-right: solid 1px black;*/
+  width: 900px;
+  margin: 0px auto;
+}
+
+#main{
+/*  min-height: 340px;
+  /*border-top: solid 1px black;*/
+}
+
+#header{
+	background:#b3dbdb url(img/back3.gif);
+	/*background:white url(img/back3.gif);*/
+	border: solid 1px black;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	text-align: center;
+	/*border-bottom: #F8B40B 5px solid;*/
+}
+
+#bar{
+	min-height: 200px;
+	min-width: 200px;
+	margin-top: 10px;
+	margin-left: 5px;
+	float:left;
+	/*border: solid 1px black;
+		border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;*/
+}
+
+#content{
+	min-width: 600px;
+	background: white url(img/back3.gif);
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	float: right;
+	border: solid 1px black;
+		border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+
+#footer{
+	background: white url(img/back3.gif);
+	width: 100%;
+	float: right;
+	border: solid 1px black;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+
+
+/**
+ * 	Posts things
+ * */
+
+div.post{
+	background: white;
+	margin: 15px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	border: solid 1px black;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-bottom: 0px;
+	max-width: 600px;
+	overflow: auto;
+}
+div.posttop{
+	border-bottom: solid 1px black;
+	background: #b3dbdb url(img/back2.gif);
+	margin-bottom: 7px;
+}
+
+div.actioncomment{
+	padding-left: 7px;
+	margin-top: 0px;
+	margin-left: 7px;
+	margin-right: 7px;
+	margin-bottom: 5px;
+	border-bottom: solid 1px black;
+	border-left: dashed 1px black;
+	border-right: dashed 1px black;
+		border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+
+div.sign{
+	margin-top:10px;
+	text-align:right;
+	font-style: italic;
+}
+
+
+/*
+ *  Other classes
+ * */
+
+div.menu_title{
+	border: solid 1px black;
+		border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	height: 19px;
+	padding: 4px;
+	background: #b3dbdb url(img/back2.gif);
+}
+
+ul.navigator{
+  background: white url(img/back3.gif);
+  margin: 0px 0px 10px 0px;
+  padding-left: 4px;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: gray;
+  	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+  text-align: left;
+}
+
+ul.navigator li {
+	list-style: none;
+	line-height: 2.1
+}
+
+.littletext{
+	font-size: 0.5em;
+}
+
+span.left{
+	float: left;
+}
+
+span.right{
+	float: right;
+}
+
+div#commentsbox{
+	margin:10px 10px 10px 10px;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+}
+
+/**
+ * Comments things
+ * */
+
+div.comment{
+	margin: 15px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	border: solid 1px black;
+}
+div.commenttop{
+	border-bottom:solid 1px black;
+}
+
+.code {
+	background-color: #F5F5F5;
+	margin: 2px;
+	padding: 2px;
+	border: 1px black dashed;
+}
