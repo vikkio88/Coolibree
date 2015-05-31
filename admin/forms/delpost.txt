@@ -1,0 +1,10 @@
+
+<div style="margin: auto; border: 2px solid #000; width: 650px; padding: 8px;">
+<p style="float: right;font-size:0.8em"><a href="#" onclick="closetarget()">[X]</a></p>
+<h3>Post eraser</h3>
+<form>
+<label>Insert a post <a href="#" onclick="printpostlist()">position</a> for delete him -></label><input type="text" id="id" /><br />
+<label>For post editing do not use bbcode only html</label><br />
+<input type="button" id="sendbtn" onclick="reqpasspost('makedelpost')" name="Invia" value="Del post" />
+<div id="notification2"></div>
+</form></div>

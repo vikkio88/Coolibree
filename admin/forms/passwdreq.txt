@@ -1,0 +1,5 @@
+<form style="text-align: center;padding=5px;">
+<h3>Reinsert Password</h3>
+<input type="password" id="pass" />
+<br /><strong>Click pls-></strong>
+
